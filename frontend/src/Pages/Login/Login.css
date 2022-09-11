@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(127, 182, 255);
+    background-image: url('https://innovationatwork.ieee.org/wp-content/uploads/2019/09/bigstock-d-Rendering-Cloud-Computing-267217441_1024X684.jpg');
+    background-size: cover;
+}
+
+/*
+https://gamztube.files.wordpress.com/2019/02/1_ouvhfpwmk04-mcy091hxeg-1.gif
+*/
+
+.register{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 50%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    margin-bottom: 2px;
+    float: right;
+    border-radius: 10px;
+}
+.register .nav-tabs .nav-link{
+    font-weight: 600;
+    color: #000;
+    border-radius: 10px;
+    margin-left: 5px;
+    border: none!important;
+    margin-bottom: 0 !important;
+}
+
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #000;
+    background-color:  #00c6ff;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.register .nav-tabs .nav-link:hover{
+    font-weight: 600;
+    color: #fff;
+    background-color: #1900ff;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    color: #495057;
+}
+
+.register {
+    height: 100vh;
+    margin: 0%!important;
+}
+
+.row {
+    margin: auto;
+}

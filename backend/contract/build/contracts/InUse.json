@@ -1,0 +1,3719 @@
+{
+  "contractName": "InUse",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_startTime",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "_userID",
+          "type": "string"
+        }
+      ],
+      "name": "addService1",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_userID",
+          "type": "string"
+        }
+      ],
+      "name": "changeService1",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_userID",
+          "type": "string"
+        }
+      ],
+      "name": "getService1",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_startTime",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "_userID",
+          "type": "string"
+        }
+      ],
+      "name": "addService2",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_userID",
+          "type": "string"
+        }
+      ],
+      "name": "changeService2",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_userID",
+          "type": "string"
+        }
+      ],
+      "name": "getService2",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_startTime\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"_userID\",\"type\":\"string\"}],\"name\":\"addService1\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_startTime\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"_userID\",\"type\":\"string\"}],\"name\":\"addService2\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"string\",\"name\":\"_userID\",\"type\":\"string\"}],\"name\":\"changeService1\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"string\",\"name\":\"_userID\",\"type\":\"string\"}],\"name\":\"changeService2\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"string\",\"name\":\"_userID\",\"type\":\"string\"}],\"name\":\"getService1\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"string\",\"name\":\"_userID\",\"type\":\"string\"}],\"name\":\"getService2\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/serviceInUse.sol\":\"InUse\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/serviceInUse.sol\":{\"keccak256\":\"0x26d1eea76d46e1031e882f4c6a8be3f3cb564f438a9d5729547d896312442d36\",\"urls\":[\"bzz-raw://4b33f666a89ea40ddc8892e453748d308562b9900b798e560795d728607e016f\",\"dweb:/ipfs/QmaVHHrFo6waJ1cFGb1qmipLwWXavUs8pZaEWLGRbRpkJa\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506106cf806100206000396000f3fe608060405234801561001057600080fd5b50600436106100625760003560e01c80630887ef221461006757806334d44be614610097578063389434b8146100b35780633d203970146100cf5780638329ce5a146100eb578063a4e299951461011b575b600080fd5b610081600480360361007c91908101906104a7565b610137565b60405161008e9190610593565b60405180910390f35b6100b160048036036100ac91908101906104a7565b61016e565b005b6100cd60048036036100c891908101906104e8565b6101aa565b005b6100e960048036036100e491908101906104a7565b610244565b005b610105600480360361010091908101906104a7565b610281565b6040516101129190610593565b60405180910390f35b610135600480360361013091908101906104e8565b6102b9565b005b60008082604051610148919061057c565b908152602001604051809103902060020160009054906101000a900460ff169050919050565b6000808260405161017f919061057c565b908152602001604051809103902060020160006101000a81548160ff02191690831515021790555050565b6101b2610353565b828160000181815250508181602001819052506001816040019015159081151581525050806001836040516101e7919061057c565b908152602001604051809103902060008201518160000155602082015181600101908051906020019061021b929190610376565b5060408201518160020160006101000a81548160ff021916908315150217905550905050505050565b6000600182604051610256919061057c565b908152602001604051809103902060020160006101000a81548160ff02191690831515021790555050565b6000600182604051610293919061057c565b908152602001604051809103902060020160009054906101000a900460ff169050919050565b6102c16103f6565b828160000181815250508181602001819052506001816040019015159081151581525050806000836040516102f6919061057c565b908152602001604051809103902060008201518160000155602082015181600101908051906020019061032a929190610376565b5060408201518160020160006101000a81548160ff021916908315150217905550905050505050565b604051806060016040528060008152602001606081526020016000151581525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106103b757805160ff19168380011785556103e5565b828001600101855582156103e5579182015b828111156103e45782518255916020019190600101906103c9565b5b5090506103f29190610419565b5090565b604051806060016040528060008152602001606081526020016000151581525090565b61043b91905b8082111561043757600081600090555060010161041f565b5090565b90565b600082601f83011261044f57600080fd5b813561046261045d826105db565b6105ae565b9150808252602083016020830185838301111561047e57600080fd5b610489838284610633565b50505092915050565b6000813590506104a181610675565b92915050565b6000602082840312156104b957600080fd5b600082013567ffffffffffffffff8111156104d357600080fd5b6104df8482850161043e565b91505092915050565b600080604083850312156104fb57600080fd5b600061050985828601610492565b925050602083013567ffffffffffffffff81111561052657600080fd5b6105328582860161043e565b9150509250929050565b6105458161061d565b82525050565b600061055682610607565b6105608185610612565b9350610570818560208601610642565b80840191505092915050565b6000610588828461054b565b915081905092915050565b60006020820190506105a8600083018461053c565b92915050565b6000604051905081810181811067ffffffffffffffff821117156105d157600080fd5b8060405250919050565b600067ffffffffffffffff8211156105f257600080fd5b601f19601f8301169050602081019050919050565b600081519050919050565b600081905092915050565b60008115159050919050565b6000819050919050565b82818337600083830152505050565b60005b83811015610660578082015181840152602081019050610645565b8381111561066f576000848401525b50505050565b61067e81610629565b811461068957600080fd5b5056fea365627a7a72315820b5edd33e1beae5bb43a4a601de1ecb5f805b34901c239783a83891ceb1f953fa6c6578706572696d656e74616cf564736f6c63430005100040",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100625760003560e01c80630887ef221461006757806334d44be614610097578063389434b8146100b35780633d203970146100cf5780638329ce5a146100eb578063a4e299951461011b575b600080fd5b610081600480360361007c91908101906104a7565b610137565b60405161008e9190610593565b60405180910390f35b6100b160048036036100ac91908101906104a7565b61016e565b005b6100cd60048036036100c891908101906104e8565b6101aa565b005b6100e960048036036100e491908101906104a7565b610244565b005b610105600480360361010091908101906104a7565b610281565b6040516101129190610593565b60405180910390f35b610135600480360361013091908101906104e8565b6102b9565b005b60008082604051610148919061057c565b908152602001604051809103902060020160009054906101000a900460ff169050919050565b6000808260405161017f919061057c565b908152602001604051809103902060020160006101000a81548160ff02191690831515021790555050565b6101b2610353565b828160000181815250508181602001819052506001816040019015159081151581525050806001836040516101e7919061057c565b908152602001604051809103902060008201518160000155602082015181600101908051906020019061021b929190610376565b5060408201518160020160006101000a81548160ff021916908315150217905550905050505050565b6000600182604051610256919061057c565b908152602001604051809103902060020160006101000a81548160ff02191690831515021790555050565b6000600182604051610293919061057c565b908152602001604051809103902060020160009054906101000a900460ff169050919050565b6102c16103f6565b828160000181815250508181602001819052506001816040019015159081151581525050806000836040516102f6919061057c565b908152602001604051809103902060008201518160000155602082015181600101908051906020019061032a929190610376565b5060408201518160020160006101000a81548160ff021916908315150217905550905050505050565b604051806060016040528060008152602001606081526020016000151581525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106103b757805160ff19168380011785556103e5565b828001600101855582156103e5579182015b828111156103e45782518255916020019190600101906103c9565b5b5090506103f29190610419565b5090565b604051806060016040528060008152602001606081526020016000151581525090565b61043b91905b8082111561043757600081600090555060010161041f565b5090565b90565b600082601f83011261044f57600080fd5b813561046261045d826105db565b6105ae565b9150808252602083016020830185838301111561047e57600080fd5b610489838284610633565b50505092915050565b6000813590506104a181610675565b92915050565b6000602082840312156104b957600080fd5b600082013567ffffffffffffffff8111156104d357600080fd5b6104df8482850161043e565b91505092915050565b600080604083850312156104fb57600080fd5b600061050985828601610492565b925050602083013567ffffffffffffffff81111561052657600080fd5b6105328582860161043e565b9150509250929050565b6105458161061d565b82525050565b600061055682610607565b6105608185610612565b9350610570818560208601610642565b80840191505092915050565b6000610588828461054b565b915081905092915050565b60006020820190506105a8600083018461053c565b92915050565b6000604051905081810181811067ffffffffffffffff821117156105d157600080fd5b8060405250919050565b600067ffffffffffffffff8211156105f257600080fd5b601f19601f8301169050602081019050919050565b600081519050919050565b600081905092915050565b60008115159050919050565b6000819050919050565b82818337600083830152505050565b60005b83811015610660578082015181840152602081019050610645565b8381111561066f576000848401525b50505050565b61067e81610629565b811461068957600080fd5b5056fea365627a7a72315820b5edd33e1beae5bb43a4a601de1ecb5f805b34901c239783a83891ceb1f953fa6c6578706572696d656e74616cf564736f6c63430005100040",
+  "sourceMap": "106:1281:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;106:1281:1;;;;;;;",
+  "deployedSourceMap": "106:1281:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;106:1281:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;630:121;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;517:107;;;;;;;;;;;;;;;;:::i;:::-;;911:231;;;;;;;;;;;;;;;;:::i;:::-;;1148:107;;;;;;;;;;;;;;;;:::i;:::-;;1261:121;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;280:231;;;;;;;;;;;;;;;;:::i;:::-;;630:121;694:4;717:11;729:7;717:20;;;;;;;;;;;;;;;;;;;;:26;;;;;;;;;;;;710:33;;630:121;;;:::o;517:107::-;611:5;582:11;594:7;582:20;;;;;;;;;;;;;;;;;;;;:26;;;:34;;;;;;;;;;;;;;;;;;517:107;:::o;911:231::-;993:17;;:::i;:::-;1035:10;1021:1;:11;;:24;;;;;1067:7;1056:1;:8;;:18;;;;1095:4;1085:1;:7;;:14;;;;;;;;;;;1133:1;1110:11;1122:7;1110:20;;;;;;;;;;;;;;;;;;;;:24;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;911:231;;;:::o;1148:107::-;1242:5;1213:11;1225:7;1213:20;;;;;;;;;;;;;;;;;;;;:26;;;:34;;;;;;;;;;;;;;;;;;1148:107;:::o;1261:121::-;1325:4;1348:11;1360:7;1348:20;;;;;;;;;;;;;;;;;;;;:26;;;;;;;;;;;;1341:33;;1261:121;;;:::o;280:231::-;362:17;;:::i;:::-;404:10;390:1;:11;;:24;;;;;436:7;425:1;:8;;:18;;;;464:4;454:1;:7;;:14;;;;;;;;;;;502:1;479:11;491:7;479:20;;;;;;;;;;;;;;;;;;;;:24;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;280:231;;;:::o;106:1281::-;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;6:442:-1:-;;108:3;101:4;93:6;89:17;85:27;75:2;;126:1;123;116:12;75:2;163:6;150:20;185:65;200:49;242:6;200:49;;;185:65;;;176:74;;270:6;263:5;256:21;306:4;298:6;294:17;339:4;332:5;328:16;374:3;365:6;360:3;356:16;353:25;350:2;;;391:1;388;381:12;350:2;401:41;435:6;430:3;425;401:41;;;68:380;;;;;;;;456:130;;536:6;523:20;514:29;;548:33;575:5;548:33;;;508:78;;;;;593:347;;707:2;695:9;686:7;682:23;678:32;675:2;;;723:1;720;713:12;675:2;786:1;775:9;771:17;758:31;809:18;801:6;798:30;795:2;;;841:1;838;831:12;795:2;861:63;916:7;907:6;896:9;892:22;861:63;;;851:73;;737:193;669:271;;;;;947:472;;;1078:2;1066:9;1057:7;1053:23;1049:32;1046:2;;;1094:1;1091;1084:12;1046:2;1129:1;1146:53;1191:7;1182:6;1171:9;1167:22;1146:53;;;1136:63;;1108:97;1264:2;1253:9;1249:18;1236:32;1288:18;1280:6;1277:30;1274:2;;;1320:1;1317;1310:12;1274:2;1340:63;1395:7;1386:6;1375:9;1371:22;1340:63;;;1330:73;;1215:194;1040:379;;;;;;1426:104;1503:21;1518:5;1503:21;;;1498:3;1491:34;1485:45;;;1537:360;;1667:39;1700:5;1667:39;;;1718:89;1800:6;1795:3;1718:89;;;1711:96;;1812:52;1857:6;1852:3;1845:4;1838:5;1834:16;1812:52;;;1885:6;1880:3;1876:16;1869:23;;1647:250;;;;;;1904:266;;2050:95;2141:3;2132:6;2050:95;;;2043:102;;2162:3;2155:10;;2031:139;;;;;2177:201;;2289:2;2278:9;2274:18;2266:26;;2303:65;2365:1;2354:9;2350:17;2341:6;2303:65;;;2260:118;;;;;2385:256;;2447:2;2441:9;2431:19;;2485:4;2477:6;2473:17;2584:6;2572:10;2569:22;2548:18;2536:10;2533:34;2530:62;2527:2;;;2605:1;2602;2595:12;2527:2;2625:10;2621:2;2614:22;2425:216;;;;;2648:322;;2792:18;2784:6;2781:30;2778:2;;;2824:1;2821;2814:12;2778:2;2891:4;2887:9;2880:4;2872:6;2868:17;2864:33;2856:41;;2955:4;2949;2945:15;2937:23;;2715:255;;;;2977:122;;3071:5;3065:12;3055:22;;3036:63;;;;3107:145;;3243:3;3228:18;;3221:31;;;;;3260:85;;3333:5;3326:13;3319:21;3308:32;;3302:43;;;;3352:72;;3414:5;3403:16;;3397:27;;;;3432:145;3513:6;3508:3;3503;3490:30;3569:1;3560:6;3555:3;3551:16;3544:27;3483:94;;;;3586:268;3651:1;3658:101;3672:6;3669:1;3666:13;3658:101;;;3748:1;3743:3;3739:11;3733:18;3729:1;3724:3;3720:11;3713:39;3694:2;3691:1;3687:10;3682:15;;3658:101;;;3774:6;3771:1;3768:13;3765:2;;;3839:1;3830:6;3825:3;3821:16;3814:27;3765:2;3635:219;;;;;3862:117;3931:24;3949:5;3931:24;;;3924:5;3921:35;3911:2;;3970:1;3967;3960:12;3911:2;3905:74;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\npragma experimental ABIEncoderV2;\r\n\r\n\r\ncontract InUse {\r\n    struct service1 { \r\n        uint256 startTime;\r\n        string userID;\r\n        bool inUse;\r\n    }\r\n    mapping(string => service1) service1Map;\r\n\r\n    function addService1(uint256 _startTime, string memory _userID) public {\r\n        service1 memory s;\r\n        s.startTime = _startTime;\r\n        s.userID = _userID;\r\n        s.inUse = true;\r\n        service1Map[_userID] = s;\r\n    }\r\n    function changeService1(string memory _userID) public {\r\n        service1Map[_userID].inUse = false;\r\n    }\r\n    function getService1(string memory _userID) public view returns(bool){\r\n        return service1Map[_userID].inUse;\r\n    }\r\n\r\n    struct service2 { \r\n        uint256 startTime;\r\n        string userID;\r\n        bool inUse;\r\n    }\r\n    mapping(string => service2) service2Map;\r\n\r\n    function addService2(uint256 _startTime, string memory _userID) public {\r\n        service2 memory s;\r\n        s.startTime = _startTime;\r\n        s.userID = _userID;\r\n        s.inUse = true;\r\n        service2Map[_userID] = s;\r\n    }\r\n    function changeService2(string memory _userID) public {\r\n        service2Map[_userID].inUse = false;\r\n    }\r\n    function getService2(string memory _userID) public view returns(bool){\r\n        return service2Map[_userID].inUse;\r\n    }\r\n\r\n}",
+  "sourcePath": "D:\\Codes\\Minor 2\\vaibhav\\minor-2\\backend\\contract\\contracts\\serviceInUse.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/serviceInUse.sol",
+    "exportedSymbols": {
+      "InUse": [
+        180
+      ]
+    },
+    "id": 181,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "id": 35,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "67:33:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 180,
+        "linearizedBaseContracts": [
+          180
+        ],
+        "name": "InUse",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "InUse.service1",
+            "id": 42,
+            "members": [
+              {
+                "constant": false,
+                "id": 37,
+                "name": "startTime",
+                "nodeType": "VariableDeclaration",
+                "scope": 42,
+                "src": "156:17:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 36,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "156:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 39,
+                "name": "userID",
+                "nodeType": "VariableDeclaration",
+                "scope": 42,
+                "src": "184:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 38,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "184:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 41,
+                "name": "inUse",
+                "nodeType": "VariableDeclaration",
+                "scope": 42,
+                "src": "208:10:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 40,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "208:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "service1",
+            "nodeType": "StructDefinition",
+            "scope": 180,
+            "src": "128:98:1",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 46,
+            "name": "service1Map",
+            "nodeType": "VariableDeclaration",
+            "scope": 180,
+            "src": "232:39:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_service1_$42_storage_$",
+              "typeString": "mapping(string => struct InUse.service1)"
+            },
+            "typeName": {
+              "id": 45,
+              "keyType": {
+                "id": 43,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "240:6:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "232:27:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_service1_$42_storage_$",
+                "typeString": "mapping(string => struct InUse.service1)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 44,
+                "name": "service1",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 42,
+                "src": "250:8:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_service1_$42_storage_ptr",
+                  "typeString": "struct InUse.service1"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 80,
+              "nodeType": "Block",
+              "src": "351:160:1",
+              "statements": [
+                {
+                  "assignments": [
+                    54
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 54,
+                      "name": "s",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 80,
+                      "src": "362:17:1",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_service1_$42_memory_ptr",
+                        "typeString": "struct InUse.service1"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 53,
+                        "name": "service1",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 42,
+                        "src": "362:8:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_service1_$42_storage_ptr",
+                          "typeString": "struct InUse.service1"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 55,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "362:17:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 60,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 56,
+                        "name": "s",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 54,
+                        "src": "390:1:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_service1_$42_memory_ptr",
+                          "typeString": "struct InUse.service1 memory"
+                        }
+                      },
+                      "id": 58,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "startTime",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 37,
+                      "src": "390:11:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 59,
+                      "name": "_startTime",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 48,
+                      "src": "404:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "390:24:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 61,
+                  "nodeType": "ExpressionStatement",
+                  "src": "390:24:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 66,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 62,
+                        "name": "s",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 54,
+                        "src": "425:1:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_service1_$42_memory_ptr",
+                          "typeString": "struct InUse.service1 memory"
+                        }
+                      },
+                      "id": 64,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "userID",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 39,
+                      "src": "425:8:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 65,
+                      "name": "_userID",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 50,
+                      "src": "436:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "425:18:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory",
+                      "typeString": "string memory"
+                    }
+                  },
+                  "id": 67,
+                  "nodeType": "ExpressionStatement",
+                  "src": "425:18:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 72,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 68,
+                        "name": "s",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 54,
+                        "src": "454:1:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_service1_$42_memory_ptr",
+                          "typeString": "struct InUse.service1 memory"
+                        }
+                      },
+                      "id": 70,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "inUse",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 41,
+                      "src": "454:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "74727565",
+                      "id": 71,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "464:4:1",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "src": "454:14:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 73,
+                  "nodeType": "ExpressionStatement",
+                  "src": "454:14:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 78,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 74,
+                        "name": "service1Map",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46,
+                        "src": "479:11:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_service1_$42_storage_$",
+                          "typeString": "mapping(string memory => struct InUse.service1 storage ref)"
+                        }
+                      },
+                      "id": 76,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 75,
+                        "name": "_userID",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 50,
+                        "src": "491:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "479:20:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_service1_$42_storage",
+                        "typeString": "struct InUse.service1 storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 77,
+                      "name": "s",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 54,
+                      "src": "502:1:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_service1_$42_memory_ptr",
+                        "typeString": "struct InUse.service1 memory"
+                      }
+                    },
+                    "src": "479:24:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_service1_$42_storage",
+                      "typeString": "struct InUse.service1 storage ref"
+                    }
+                  },
+                  "id": 79,
+                  "nodeType": "ExpressionStatement",
+                  "src": "479:24:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 81,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "addService1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 51,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 48,
+                  "name": "_startTime",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 81,
+                  "src": "301:18:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 47,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "301:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 50,
+                  "name": "_userID",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 81,
+                  "src": "321:21:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 49,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "321:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "300:43:1"
+            },
+            "returnParameters": {
+              "id": 52,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "351:0:1"
+            },
+            "scope": 180,
+            "src": "280:231:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 93,
+              "nodeType": "Block",
+              "src": "571:53:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 91,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "id": 86,
+                          "name": "service1Map",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 46,
+                          "src": "582:11:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_service1_$42_storage_$",
+                            "typeString": "mapping(string memory => struct InUse.service1 storage ref)"
+                          }
+                        },
+                        "id": 88,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "id": 87,
+                          "name": "_userID",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 83,
+                          "src": "594:7:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "582:20:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_service1_$42_storage",
+                          "typeString": "struct InUse.service1 storage ref"
+                        }
+                      },
+                      "id": 89,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "inUse",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 41,
+                      "src": "582:26:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "66616c7365",
+                      "id": 90,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "611:5:1",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "false"
+                    },
+                    "src": "582:34:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 92,
+                  "nodeType": "ExpressionStatement",
+                  "src": "582:34:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 94,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeService1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 84,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 83,
+                  "name": "_userID",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 94,
+                  "src": "541:21:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 82,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "541:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "540:23:1"
+            },
+            "returnParameters": {
+              "id": 85,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "571:0:1"
+            },
+            "scope": 180,
+            "src": "517:107:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 106,
+              "nodeType": "Block",
+              "src": "699:52:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 101,
+                        "name": "service1Map",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46,
+                        "src": "717:11:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_service1_$42_storage_$",
+                          "typeString": "mapping(string memory => struct InUse.service1 storage ref)"
+                        }
+                      },
+                      "id": 103,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 102,
+                        "name": "_userID",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 96,
+                        "src": "729:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "717:20:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_service1_$42_storage",
+                        "typeString": "struct InUse.service1 storage ref"
+                      }
+                    },
+                    "id": 104,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "inUse",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": 41,
+                    "src": "717:26:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 100,
+                  "id": 105,
+                  "nodeType": "Return",
+                  "src": "710:33:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 107,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getService1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 97,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 96,
+                  "name": "_userID",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 107,
+                  "src": "651:21:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 95,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "651:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "650:23:1"
+            },
+            "returnParameters": {
+              "id": 100,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 99,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 107,
+                  "src": "694:4:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 98,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "694:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "693:6:1"
+            },
+            "scope": 180,
+            "src": "630:121:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "InUse.service2",
+            "id": 114,
+            "members": [
+              {
+                "constant": false,
+                "id": 109,
+                "name": "startTime",
+                "nodeType": "VariableDeclaration",
+                "scope": 114,
+                "src": "787:17:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 108,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "787:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 111,
+                "name": "userID",
+                "nodeType": "VariableDeclaration",
+                "scope": 114,
+                "src": "815:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 110,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "815:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 113,
+                "name": "inUse",
+                "nodeType": "VariableDeclaration",
+                "scope": 114,
+                "src": "839:10:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 112,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "839:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "service2",
+            "nodeType": "StructDefinition",
+            "scope": 180,
+            "src": "759:98:1",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 118,
+            "name": "service2Map",
+            "nodeType": "VariableDeclaration",
+            "scope": 180,
+            "src": "863:39:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_service2_$114_storage_$",
+              "typeString": "mapping(string => struct InUse.service2)"
+            },
+            "typeName": {
+              "id": 117,
+              "keyType": {
+                "id": 115,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "871:6:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "863:27:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_service2_$114_storage_$",
+                "typeString": "mapping(string => struct InUse.service2)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 116,
+                "name": "service2",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 114,
+                "src": "881:8:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_service2_$114_storage_ptr",
+                  "typeString": "struct InUse.service2"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 152,
+              "nodeType": "Block",
+              "src": "982:160:1",
+              "statements": [
+                {
+                  "assignments": [
+                    126
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 126,
+                      "name": "s",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 152,
+                      "src": "993:17:1",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_service2_$114_memory_ptr",
+                        "typeString": "struct InUse.service2"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 125,
+                        "name": "service2",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 114,
+                        "src": "993:8:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_service2_$114_storage_ptr",
+                          "typeString": "struct InUse.service2"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 127,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "993:17:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 132,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 128,
+                        "name": "s",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 126,
+                        "src": "1021:1:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_service2_$114_memory_ptr",
+                          "typeString": "struct InUse.service2 memory"
+                        }
+                      },
+                      "id": 130,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "startTime",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 109,
+                      "src": "1021:11:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 131,
+                      "name": "_startTime",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 120,
+                      "src": "1035:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "1021:24:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 133,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1021:24:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 138,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 134,
+                        "name": "s",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 126,
+                        "src": "1056:1:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_service2_$114_memory_ptr",
+                          "typeString": "struct InUse.service2 memory"
+                        }
+                      },
+                      "id": 136,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "userID",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 111,
+                      "src": "1056:8:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 137,
+                      "name": "_userID",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 122,
+                      "src": "1067:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "1056:18:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory",
+                      "typeString": "string memory"
+                    }
+                  },
+                  "id": 139,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1056:18:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 144,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 140,
+                        "name": "s",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 126,
+                        "src": "1085:1:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_service2_$114_memory_ptr",
+                          "typeString": "struct InUse.service2 memory"
+                        }
+                      },
+                      "id": 142,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "inUse",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 113,
+                      "src": "1085:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "74727565",
+                      "id": 143,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "1095:4:1",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "src": "1085:14:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 145,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1085:14:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 150,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 146,
+                        "name": "service2Map",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 118,
+                        "src": "1110:11:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_service2_$114_storage_$",
+                          "typeString": "mapping(string memory => struct InUse.service2 storage ref)"
+                        }
+                      },
+                      "id": 148,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 147,
+                        "name": "_userID",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 122,
+                        "src": "1122:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1110:20:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_service2_$114_storage",
+                        "typeString": "struct InUse.service2 storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 149,
+                      "name": "s",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 126,
+                      "src": "1133:1:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_service2_$114_memory_ptr",
+                        "typeString": "struct InUse.service2 memory"
+                      }
+                    },
+                    "src": "1110:24:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_service2_$114_storage",
+                      "typeString": "struct InUse.service2 storage ref"
+                    }
+                  },
+                  "id": 151,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1110:24:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 153,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "addService2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 123,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 120,
+                  "name": "_startTime",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 153,
+                  "src": "932:18:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 119,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "932:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 122,
+                  "name": "_userID",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 153,
+                  "src": "952:21:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 121,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "952:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "931:43:1"
+            },
+            "returnParameters": {
+              "id": 124,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "982:0:1"
+            },
+            "scope": 180,
+            "src": "911:231:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 165,
+              "nodeType": "Block",
+              "src": "1202:53:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 163,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "id": 158,
+                          "name": "service2Map",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 118,
+                          "src": "1213:11:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_service2_$114_storage_$",
+                            "typeString": "mapping(string memory => struct InUse.service2 storage ref)"
+                          }
+                        },
+                        "id": 160,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "id": 159,
+                          "name": "_userID",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 155,
+                          "src": "1225:7:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "1213:20:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_service2_$114_storage",
+                          "typeString": "struct InUse.service2 storage ref"
+                        }
+                      },
+                      "id": 161,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "inUse",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 113,
+                      "src": "1213:26:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "66616c7365",
+                      "id": 162,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "1242:5:1",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "false"
+                    },
+                    "src": "1213:34:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 164,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1213:34:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 166,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeService2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 156,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 155,
+                  "name": "_userID",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 166,
+                  "src": "1172:21:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 154,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1172:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1171:23:1"
+            },
+            "returnParameters": {
+              "id": 157,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1202:0:1"
+            },
+            "scope": 180,
+            "src": "1148:107:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 178,
+              "nodeType": "Block",
+              "src": "1330:52:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 173,
+                        "name": "service2Map",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 118,
+                        "src": "1348:11:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_service2_$114_storage_$",
+                          "typeString": "mapping(string memory => struct InUse.service2 storage ref)"
+                        }
+                      },
+                      "id": 175,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 174,
+                        "name": "_userID",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 168,
+                        "src": "1360:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "1348:20:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_service2_$114_storage",
+                        "typeString": "struct InUse.service2 storage ref"
+                      }
+                    },
+                    "id": 176,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "inUse",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": 113,
+                    "src": "1348:26:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 172,
+                  "id": 177,
+                  "nodeType": "Return",
+                  "src": "1341:33:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 179,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getService2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 169,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 168,
+                  "name": "_userID",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 179,
+                  "src": "1282:21:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 167,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1282:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1281:23:1"
+            },
+            "returnParameters": {
+              "id": 172,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 171,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 179,
+                  "src": "1325:4:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 170,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1325:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1324:6:1"
+            },
+            "scope": 180,
+            "src": "1261:121:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 181,
+        "src": "106:1281:1"
+      }
+    ],
+    "src": "33:1354:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/serviceInUse.sol",
+      "exportedSymbols": {
+        "InUse": [
+          180
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 34,
+        "name": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "attributes": {
+          "literals": [
+            "experimental",
+            "ABIEncoderV2"
+          ]
+        },
+        "id": 35,
+        "name": "PragmaDirective",
+        "src": "67:33:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            180
+          ],
+          "name": "InUse",
+          "scope": 181
+        },
+        "children": [
+          {
+            "attributes": {
+              "canonicalName": "InUse.service1",
+              "name": "service1",
+              "scope": 180,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "startTime",
+                  "scope": 42,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "uint256",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "uint256",
+                      "type": "uint256"
+                    },
+                    "id": 36,
+                    "name": "ElementaryTypeName",
+                    "src": "156:7:1"
+                  }
+                ],
+                "id": 37,
+                "name": "VariableDeclaration",
+                "src": "156:17:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "userID",
+                  "scope": 42,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 38,
+                    "name": "ElementaryTypeName",
+                    "src": "184:6:1"
+                  }
+                ],
+                "id": 39,
+                "name": "VariableDeclaration",
+                "src": "184:13:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "inUse",
+                  "scope": 42,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "bool",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "bool",
+                      "type": "bool"
+                    },
+                    "id": 40,
+                    "name": "ElementaryTypeName",
+                    "src": "208:4:1"
+                  }
+                ],
+                "id": 41,
+                "name": "VariableDeclaration",
+                "src": "208:10:1"
+              }
+            ],
+            "id": 42,
+            "name": "StructDefinition",
+            "src": "128:98:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "service1Map",
+              "scope": 180,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "mapping(string => struct InUse.service1)",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "type": "mapping(string => struct InUse.service1)"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 43,
+                    "name": "ElementaryTypeName",
+                    "src": "240:6:1"
+                  },
+                  {
+                    "attributes": {
+                      "contractScope": null,
+                      "name": "service1",
+                      "referencedDeclaration": 42,
+                      "type": "struct InUse.service1"
+                    },
+                    "id": 44,
+                    "name": "UserDefinedTypeName",
+                    "src": "250:8:1"
+                  }
+                ],
+                "id": 45,
+                "name": "Mapping",
+                "src": "232:27:1"
+              }
+            ],
+            "id": 46,
+            "name": "VariableDeclaration",
+            "src": "232:39:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "addService1",
+              "scope": 180,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_startTime",
+                      "scope": 81,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 47,
+                        "name": "ElementaryTypeName",
+                        "src": "301:7:1"
+                      }
+                    ],
+                    "id": 48,
+                    "name": "VariableDeclaration",
+                    "src": "301:18:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_userID",
+                      "scope": 81,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 49,
+                        "name": "ElementaryTypeName",
+                        "src": "321:6:1"
+                      }
+                    ],
+                    "id": 50,
+                    "name": "VariableDeclaration",
+                    "src": "321:21:1"
+                  }
+                ],
+                "id": 51,
+                "name": "ParameterList",
+                "src": "300:43:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 52,
+                "name": "ParameterList",
+                "src": "351:0:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        54
+                      ],
+                      "initialValue": null
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "s",
+                          "scope": 80,
+                          "stateVariable": false,
+                          "storageLocation": "memory",
+                          "type": "struct InUse.service1",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "service1",
+                              "referencedDeclaration": 42,
+                              "type": "struct InUse.service1"
+                            },
+                            "id": 53,
+                            "name": "UserDefinedTypeName",
+                            "src": "362:8:1"
+                          }
+                        ],
+                        "id": 54,
+                        "name": "VariableDeclaration",
+                        "src": "362:17:1"
+                      }
+                    ],
+                    "id": 55,
+                    "name": "VariableDeclarationStatement",
+                    "src": "362:17:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "startTime",
+                              "referencedDeclaration": 37,
+                              "type": "uint256"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 54,
+                                  "type": "struct InUse.service1 memory",
+                                  "value": "s"
+                                },
+                                "id": 56,
+                                "name": "Identifier",
+                                "src": "390:1:1"
+                              }
+                            ],
+                            "id": 58,
+                            "name": "MemberAccess",
+                            "src": "390:11:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 48,
+                              "type": "uint256",
+                              "value": "_startTime"
+                            },
+                            "id": 59,
+                            "name": "Identifier",
+                            "src": "404:10:1"
+                          }
+                        ],
+                        "id": 60,
+                        "name": "Assignment",
+                        "src": "390:24:1"
+                      }
+                    ],
+                    "id": 61,
+                    "name": "ExpressionStatement",
+                    "src": "390:24:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "string memory"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "userID",
+                              "referencedDeclaration": 39,
+                              "type": "string memory"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 54,
+                                  "type": "struct InUse.service1 memory",
+                                  "value": "s"
+                                },
+                                "id": 62,
+                                "name": "Identifier",
+                                "src": "425:1:1"
+                              }
+                            ],
+                            "id": 64,
+                            "name": "MemberAccess",
+                            "src": "425:8:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 50,
+                              "type": "string memory",
+                              "value": "_userID"
+                            },
+                            "id": 65,
+                            "name": "Identifier",
+                            "src": "436:7:1"
+                          }
+                        ],
+                        "id": 66,
+                        "name": "Assignment",
+                        "src": "425:18:1"
+                      }
+                    ],
+                    "id": 67,
+                    "name": "ExpressionStatement",
+                    "src": "425:18:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "inUse",
+                              "referencedDeclaration": 41,
+                              "type": "bool"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 54,
+                                  "type": "struct InUse.service1 memory",
+                                  "value": "s"
+                                },
+                                "id": 68,
+                                "name": "Identifier",
+                                "src": "454:1:1"
+                              }
+                            ],
+                            "id": 70,
+                            "name": "MemberAccess",
+                            "src": "454:7:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "74727565",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "bool",
+                              "type": "bool",
+                              "value": "true"
+                            },
+                            "id": 71,
+                            "name": "Literal",
+                            "src": "464:4:1"
+                          }
+                        ],
+                        "id": 72,
+                        "name": "Assignment",
+                        "src": "454:14:1"
+                      }
+                    ],
+                    "id": 73,
+                    "name": "ExpressionStatement",
+                    "src": "454:14:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "struct InUse.service1 storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "type": "struct InUse.service1 storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 46,
+                                  "type": "mapping(string memory => struct InUse.service1 storage ref)",
+                                  "value": "service1Map"
+                                },
+                                "id": 74,
+                                "name": "Identifier",
+                                "src": "479:11:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 50,
+                                  "type": "string memory",
+                                  "value": "_userID"
+                                },
+                                "id": 75,
+                                "name": "Identifier",
+                                "src": "491:7:1"
+                              }
+                            ],
+                            "id": 76,
+                            "name": "IndexAccess",
+                            "src": "479:20:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 54,
+                              "type": "struct InUse.service1 memory",
+                              "value": "s"
+                            },
+                            "id": 77,
+                            "name": "Identifier",
+                            "src": "502:1:1"
+                          }
+                        ],
+                        "id": 78,
+                        "name": "Assignment",
+                        "src": "479:24:1"
+                      }
+                    ],
+                    "id": 79,
+                    "name": "ExpressionStatement",
+                    "src": "479:24:1"
+                  }
+                ],
+                "id": 80,
+                "name": "Block",
+                "src": "351:160:1"
+              }
+            ],
+            "id": 81,
+            "name": "FunctionDefinition",
+            "src": "280:231:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "changeService1",
+              "scope": 180,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_userID",
+                      "scope": 94,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 82,
+                        "name": "ElementaryTypeName",
+                        "src": "541:6:1"
+                      }
+                    ],
+                    "id": 83,
+                    "name": "VariableDeclaration",
+                    "src": "541:21:1"
+                  }
+                ],
+                "id": 84,
+                "name": "ParameterList",
+                "src": "540:23:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 85,
+                "name": "ParameterList",
+                "src": "571:0:1"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "inUse",
+                              "referencedDeclaration": 41,
+                              "type": "bool"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "struct InUse.service1 storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 46,
+                                      "type": "mapping(string memory => struct InUse.service1 storage ref)",
+                                      "value": "service1Map"
+                                    },
+                                    "id": 86,
+                                    "name": "Identifier",
+                                    "src": "582:11:1"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 83,
+                                      "type": "string memory",
+                                      "value": "_userID"
+                                    },
+                                    "id": 87,
+                                    "name": "Identifier",
+                                    "src": "594:7:1"
+                                  }
+                                ],
+                                "id": 88,
+                                "name": "IndexAccess",
+                                "src": "582:20:1"
+                              }
+                            ],
+                            "id": 89,
+                            "name": "MemberAccess",
+                            "src": "582:26:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "66616c7365",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "bool",
+                              "type": "bool",
+                              "value": "false"
+                            },
+                            "id": 90,
+                            "name": "Literal",
+                            "src": "611:5:1"
+                          }
+                        ],
+                        "id": 91,
+                        "name": "Assignment",
+                        "src": "582:34:1"
+                      }
+                    ],
+                    "id": 92,
+                    "name": "ExpressionStatement",
+                    "src": "582:34:1"
+                  }
+                ],
+                "id": 93,
+                "name": "Block",
+                "src": "571:53:1"
+              }
+            ],
+            "id": 94,
+            "name": "FunctionDefinition",
+            "src": "517:107:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getService1",
+              "scope": 180,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_userID",
+                      "scope": 107,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 95,
+                        "name": "ElementaryTypeName",
+                        "src": "651:6:1"
+                      }
+                    ],
+                    "id": 96,
+                    "name": "VariableDeclaration",
+                    "src": "651:21:1"
+                  }
+                ],
+                "id": 97,
+                "name": "ParameterList",
+                "src": "650:23:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 107,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bool",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bool",
+                          "type": "bool"
+                        },
+                        "id": 98,
+                        "name": "ElementaryTypeName",
+                        "src": "694:4:1"
+                      }
+                    ],
+                    "id": 99,
+                    "name": "VariableDeclaration",
+                    "src": "694:4:1"
+                  }
+                ],
+                "id": 100,
+                "name": "ParameterList",
+                "src": "693:6:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 100
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "member_name": "inUse",
+                          "referencedDeclaration": 41,
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "struct InUse.service1 storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 46,
+                                  "type": "mapping(string memory => struct InUse.service1 storage ref)",
+                                  "value": "service1Map"
+                                },
+                                "id": 101,
+                                "name": "Identifier",
+                                "src": "717:11:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 96,
+                                  "type": "string memory",
+                                  "value": "_userID"
+                                },
+                                "id": 102,
+                                "name": "Identifier",
+                                "src": "729:7:1"
+                              }
+                            ],
+                            "id": 103,
+                            "name": "IndexAccess",
+                            "src": "717:20:1"
+                          }
+                        ],
+                        "id": 104,
+                        "name": "MemberAccess",
+                        "src": "717:26:1"
+                      }
+                    ],
+                    "id": 105,
+                    "name": "Return",
+                    "src": "710:33:1"
+                  }
+                ],
+                "id": 106,
+                "name": "Block",
+                "src": "699:52:1"
+              }
+            ],
+            "id": 107,
+            "name": "FunctionDefinition",
+            "src": "630:121:1"
+          },
+          {
+            "attributes": {
+              "canonicalName": "InUse.service2",
+              "name": "service2",
+              "scope": 180,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "startTime",
+                  "scope": 114,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "uint256",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "uint256",
+                      "type": "uint256"
+                    },
+                    "id": 108,
+                    "name": "ElementaryTypeName",
+                    "src": "787:7:1"
+                  }
+                ],
+                "id": 109,
+                "name": "VariableDeclaration",
+                "src": "787:17:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "userID",
+                  "scope": 114,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 110,
+                    "name": "ElementaryTypeName",
+                    "src": "815:6:1"
+                  }
+                ],
+                "id": 111,
+                "name": "VariableDeclaration",
+                "src": "815:13:1"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "inUse",
+                  "scope": 114,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "bool",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "bool",
+                      "type": "bool"
+                    },
+                    "id": 112,
+                    "name": "ElementaryTypeName",
+                    "src": "839:4:1"
+                  }
+                ],
+                "id": 113,
+                "name": "VariableDeclaration",
+                "src": "839:10:1"
+              }
+            ],
+            "id": 114,
+            "name": "StructDefinition",
+            "src": "759:98:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "service2Map",
+              "scope": 180,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "mapping(string => struct InUse.service2)",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "type": "mapping(string => struct InUse.service2)"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 115,
+                    "name": "ElementaryTypeName",
+                    "src": "871:6:1"
+                  },
+                  {
+                    "attributes": {
+                      "contractScope": null,
+                      "name": "service2",
+                      "referencedDeclaration": 114,
+                      "type": "struct InUse.service2"
+                    },
+                    "id": 116,
+                    "name": "UserDefinedTypeName",
+                    "src": "881:8:1"
+                  }
+                ],
+                "id": 117,
+                "name": "Mapping",
+                "src": "863:27:1"
+              }
+            ],
+            "id": 118,
+            "name": "VariableDeclaration",
+            "src": "863:39:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "addService2",
+              "scope": 180,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_startTime",
+                      "scope": 153,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 119,
+                        "name": "ElementaryTypeName",
+                        "src": "932:7:1"
+                      }
+                    ],
+                    "id": 120,
+                    "name": "VariableDeclaration",
+                    "src": "932:18:1"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_userID",
+                      "scope": 153,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 121,
+                        "name": "ElementaryTypeName",
+                        "src": "952:6:1"
+                      }
+                    ],
+                    "id": 122,
+                    "name": "VariableDeclaration",
+                    "src": "952:21:1"
+                  }
+                ],
+                "id": 123,
+                "name": "ParameterList",
+                "src": "931:43:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 124,
+                "name": "ParameterList",
+                "src": "982:0:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        126
+                      ],
+                      "initialValue": null
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "s",
+                          "scope": 152,
+                          "stateVariable": false,
+                          "storageLocation": "memory",
+                          "type": "struct InUse.service2",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "service2",
+                              "referencedDeclaration": 114,
+                              "type": "struct InUse.service2"
+                            },
+                            "id": 125,
+                            "name": "UserDefinedTypeName",
+                            "src": "993:8:1"
+                          }
+                        ],
+                        "id": 126,
+                        "name": "VariableDeclaration",
+                        "src": "993:17:1"
+                      }
+                    ],
+                    "id": 127,
+                    "name": "VariableDeclarationStatement",
+                    "src": "993:17:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "startTime",
+                              "referencedDeclaration": 109,
+                              "type": "uint256"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 126,
+                                  "type": "struct InUse.service2 memory",
+                                  "value": "s"
+                                },
+                                "id": 128,
+                                "name": "Identifier",
+                                "src": "1021:1:1"
+                              }
+                            ],
+                            "id": 130,
+                            "name": "MemberAccess",
+                            "src": "1021:11:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 120,
+                              "type": "uint256",
+                              "value": "_startTime"
+                            },
+                            "id": 131,
+                            "name": "Identifier",
+                            "src": "1035:10:1"
+                          }
+                        ],
+                        "id": 132,
+                        "name": "Assignment",
+                        "src": "1021:24:1"
+                      }
+                    ],
+                    "id": 133,
+                    "name": "ExpressionStatement",
+                    "src": "1021:24:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "string memory"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "userID",
+                              "referencedDeclaration": 111,
+                              "type": "string memory"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 126,
+                                  "type": "struct InUse.service2 memory",
+                                  "value": "s"
+                                },
+                                "id": 134,
+                                "name": "Identifier",
+                                "src": "1056:1:1"
+                              }
+                            ],
+                            "id": 136,
+                            "name": "MemberAccess",
+                            "src": "1056:8:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 122,
+                              "type": "string memory",
+                              "value": "_userID"
+                            },
+                            "id": 137,
+                            "name": "Identifier",
+                            "src": "1067:7:1"
+                          }
+                        ],
+                        "id": 138,
+                        "name": "Assignment",
+                        "src": "1056:18:1"
+                      }
+                    ],
+                    "id": 139,
+                    "name": "ExpressionStatement",
+                    "src": "1056:18:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "inUse",
+                              "referencedDeclaration": 113,
+                              "type": "bool"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 126,
+                                  "type": "struct InUse.service2 memory",
+                                  "value": "s"
+                                },
+                                "id": 140,
+                                "name": "Identifier",
+                                "src": "1085:1:1"
+                              }
+                            ],
+                            "id": 142,
+                            "name": "MemberAccess",
+                            "src": "1085:7:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "74727565",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "bool",
+                              "type": "bool",
+                              "value": "true"
+                            },
+                            "id": 143,
+                            "name": "Literal",
+                            "src": "1095:4:1"
+                          }
+                        ],
+                        "id": 144,
+                        "name": "Assignment",
+                        "src": "1085:14:1"
+                      }
+                    ],
+                    "id": 145,
+                    "name": "ExpressionStatement",
+                    "src": "1085:14:1"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "struct InUse.service2 storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "type": "struct InUse.service2 storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 118,
+                                  "type": "mapping(string memory => struct InUse.service2 storage ref)",
+                                  "value": "service2Map"
+                                },
+                                "id": 146,
+                                "name": "Identifier",
+                                "src": "1110:11:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 122,
+                                  "type": "string memory",
+                                  "value": "_userID"
+                                },
+                                "id": 147,
+                                "name": "Identifier",
+                                "src": "1122:7:1"
+                              }
+                            ],
+                            "id": 148,
+                            "name": "IndexAccess",
+                            "src": "1110:20:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 126,
+                              "type": "struct InUse.service2 memory",
+                              "value": "s"
+                            },
+                            "id": 149,
+                            "name": "Identifier",
+                            "src": "1133:1:1"
+                          }
+                        ],
+                        "id": 150,
+                        "name": "Assignment",
+                        "src": "1110:24:1"
+                      }
+                    ],
+                    "id": 151,
+                    "name": "ExpressionStatement",
+                    "src": "1110:24:1"
+                  }
+                ],
+                "id": 152,
+                "name": "Block",
+                "src": "982:160:1"
+              }
+            ],
+            "id": 153,
+            "name": "FunctionDefinition",
+            "src": "911:231:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "changeService2",
+              "scope": 180,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_userID",
+                      "scope": 166,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 154,
+                        "name": "ElementaryTypeName",
+                        "src": "1172:6:1"
+                      }
+                    ],
+                    "id": 155,
+                    "name": "VariableDeclaration",
+                    "src": "1172:21:1"
+                  }
+                ],
+                "id": 156,
+                "name": "ParameterList",
+                "src": "1171:23:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 157,
+                "name": "ParameterList",
+                "src": "1202:0:1"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": true,
+                              "member_name": "inUse",
+                              "referencedDeclaration": 113,
+                              "type": "bool"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "struct InUse.service2 storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 118,
+                                      "type": "mapping(string memory => struct InUse.service2 storage ref)",
+                                      "value": "service2Map"
+                                    },
+                                    "id": 158,
+                                    "name": "Identifier",
+                                    "src": "1213:11:1"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 155,
+                                      "type": "string memory",
+                                      "value": "_userID"
+                                    },
+                                    "id": 159,
+                                    "name": "Identifier",
+                                    "src": "1225:7:1"
+                                  }
+                                ],
+                                "id": 160,
+                                "name": "IndexAccess",
+                                "src": "1213:20:1"
+                              }
+                            ],
+                            "id": 161,
+                            "name": "MemberAccess",
+                            "src": "1213:26:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "66616c7365",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "bool",
+                              "type": "bool",
+                              "value": "false"
+                            },
+                            "id": 162,
+                            "name": "Literal",
+                            "src": "1242:5:1"
+                          }
+                        ],
+                        "id": 163,
+                        "name": "Assignment",
+                        "src": "1213:34:1"
+                      }
+                    ],
+                    "id": 164,
+                    "name": "ExpressionStatement",
+                    "src": "1213:34:1"
+                  }
+                ],
+                "id": 165,
+                "name": "Block",
+                "src": "1202:53:1"
+              }
+            ],
+            "id": 166,
+            "name": "FunctionDefinition",
+            "src": "1148:107:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getService2",
+              "scope": 180,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_userID",
+                      "scope": 179,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 167,
+                        "name": "ElementaryTypeName",
+                        "src": "1282:6:1"
+                      }
+                    ],
+                    "id": 168,
+                    "name": "VariableDeclaration",
+                    "src": "1282:21:1"
+                  }
+                ],
+                "id": 169,
+                "name": "ParameterList",
+                "src": "1281:23:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 179,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bool",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bool",
+                          "type": "bool"
+                        },
+                        "id": 170,
+                        "name": "ElementaryTypeName",
+                        "src": "1325:4:1"
+                      }
+                    ],
+                    "id": 171,
+                    "name": "VariableDeclaration",
+                    "src": "1325:4:1"
+                  }
+                ],
+                "id": 172,
+                "name": "ParameterList",
+                "src": "1324:6:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 172
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "member_name": "inUse",
+                          "referencedDeclaration": 113,
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "struct InUse.service2 storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 118,
+                                  "type": "mapping(string memory => struct InUse.service2 storage ref)",
+                                  "value": "service2Map"
+                                },
+                                "id": 173,
+                                "name": "Identifier",
+                                "src": "1348:11:1"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 168,
+                                  "type": "string memory",
+                                  "value": "_userID"
+                                },
+                                "id": 174,
+                                "name": "Identifier",
+                                "src": "1360:7:1"
+                              }
+                            ],
+                            "id": 175,
+                            "name": "IndexAccess",
+                            "src": "1348:20:1"
+                          }
+                        ],
+                        "id": 176,
+                        "name": "MemberAccess",
+                        "src": "1348:26:1"
+                      }
+                    ],
+                    "id": 177,
+                    "name": "Return",
+                    "src": "1341:33:1"
+                  }
+                ],
+                "id": 178,
+                "name": "Block",
+                "src": "1330:52:1"
+              }
+            ],
+            "id": 179,
+            "name": "FunctionDefinition",
+            "src": "1261:121:1"
+          }
+        ],
+        "id": 180,
+        "name": "ContractDefinition",
+        "src": "106:1281:1"
+      }
+    ],
+    "id": 181,
+    "name": "SourceUnit",
+    "src": "33:1354:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x9D395DbddF9935B218887371Be53Af5188D931e8",
+      "transactionHash": "0x278f68bc463e6c72fc042501f625b460b285ab2abd1172e315419635c73a7b94"
+    }
+  },
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-05-11T06:11:35.689Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
